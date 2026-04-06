@@ -1,0 +1,147 @@
+#
+#services:
+#  postgres:
+#    image: postgres:15
+#    container_name: postgres
+#    environment:
+#      POSTGRES_USER: postgres
+#      POSTGRES_PASSWORD: shroyash
+#    ports:
+#      - "5432:5432"
+#    volumes:
+#      - auth_db_data:/var/lib/postgresql/data
+#      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+#    healthcheck:
+#      test: ["CMD-SHELL", "pg_isready -U postgres"]
+#      interval: 5s
+#      timeout: 5s
+#      retries: 5
+#
+#  discovery-server:
+##    build:
+#      context: ./discovery-server
+#    container_name: discovery-server
+#    volumes:
+#      - ./discovery-server:/app
+#      - ~/.m2:/root/.m2
+#    ports:
+#      - "8761:8761"
+#      - "5001:5005"
+#    environment:
+#      JAVA_TOOL_OPTIONS: "-agentlib:jdwp=transport=dt_socket,address=*:5005,server=y,suspend=n"
+#      SERVER_PORT: 8761
+#    depends_on:
+#      postgres:
+#        condition: service_healthy
+#    healthcheck:
+#      test: ["CMD-SHELL", "curl -f http://localhost:8761/actuator/health || exit 1"]
+#      interval: 5s
+#      timeout: 5s
+#      retries: 5
+#
+#  api-gateway:
+#    build:
+#      context: ./api-gateway
+#    container_name: api-gateway
+#    volumes:
+#      - ./api-gateway:/app
+#      - ~/.m2:/root/.m2
+#    ports:
+#      - "8001:8001"
+#      - "5002:5005"
+#    environment:
+#      JAVA_TOOL_OPTIONS: "-agentlib:jdwp=transport=dt_socket,address=*:5005,server=y,suspend=n"
+#      SPRING_EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://discovery-server:8761/eureka/
+#      SERVER_PORT: 8001
+#    depends_on:
+#      discovery-server:
+#        condition: service_healthy
+#
+#  healthcare-service:
+#    build:
+#      context: ./healthcare-service
+#    container_name: healthcare-service
+#    volumes:
+#      - ./healthcare-service:/app
+#      - ~/.m2:/root/.m2
+#      - ./healthcare-service/uploads:/app/uploads
+#    ports:
+#      - "8004:8004"
+#      - "5003:5005"
+#    environment:
+#      JAVA_TOOL_OPTIONS: "-agentlib:jdwp=transport=dt_socket,address=*:5005,server=y,suspend=n"
+#      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/healthcare_service_db
+#      SPRING_DATASOURCE_USERNAME: postgres
+#      SPRING_DATASOURCE_PASSWORD: shroyash
+#      SPRING_EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://discovery-server:8761/eureka/
+#      SERVER_PORT: 8004
+#    depends_on:
+#      postgres:
+#        condition: service_healthy
+#      discovery-server:
+#        condition: service_healthy
+#    healthcheck:
+#      test: ["CMD-SHELL", "curl -f http://localhost:8004/actuator/health || exit 1"]
+#      interval: 5s
+#      timeout: 5s
+#      retries: 5
+#
+#  analytics-service:
+#    build:
+#      context: ./analytics-service
+#    container_name: analytics-service
+#    volumes:
+#      - ./analytics-service:/app
+#      - ~/.m2:/root/.m2
+#    ports:
+#      - "8002:8002"
+#      - "5004:5005"
+#    environment:
+#      JAVA_TOOL_OPTIONS: "-agentlib:jdwp=transport=dt_socket,address=*:5005,server=y,suspend=n"
+#      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/analytics_service_db
+#      SPRING_DATASOURCE_USERNAME: postgres
+#      SPRING_DATASOURCE_PASSWORD: shroyash
+#      SPRING_EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://discovery-server:8761/eureka/
+#      SERVER_PORT: 8002
+#    depends_on:
+#      postgres:
+#        condition: service_healthy
+#      discovery-server:
+#        condition: service_healthy
+#    healthcheck:
+#      test: ["CMD-SHELL", "curl -f http://localhost:8002/actuator/health || exit 1"]
+#      interval: 5s
+#      timeout: 5s
+#      retries: 5
+#
+#  auth-service:
+#    build:
+#      context: ./auth-service
+#    container_name: auth-service
+#    volumes:
+#      - ./auth-service:/app
+#      - ~/.m2:/root/.m2
+#      - ./auth-service/uploads:/app/uploads
+#    ports:
+#      - "8003:8003"
+#      - "5006:5005"
+#    environment:
+#      JAVA_TOOL_OPTIONS: "-agentlib:jdwp=transport=dt_socket,address=*:5005,server=y,suspend=n"
+#      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/auth_service_db
+#      SPRING_DATASOURCE_USERNAME: postgres
+#      SPRING_DATASOURCE_PASSWORD: shroyash
+#      SPRING_EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://discovery-server:8761/eureka/
+#      SERVER_PORT: 8003
+#    depends_on:
+#      postgres:
+#        condition: service_healthy
+#      discovery-server:
+#        condition: service_healthy
+#    healthcheck:
+#      test: ["CMD-SHELL", "curl -f http://localhost:8003/actuator/health || exit 1"]
+#      interval: 5s
+#      timeout: 5s
+#      retries: 5
+#
+#volumes:
+#  auth_db_data:
