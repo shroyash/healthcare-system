@@ -4,7 +4,7 @@ FROM eclipse-temurin:21-jdk-jammy
 WORKDIR /app
 
 # Copy Maven built JAR into container
-COPY target/payment-0.0.1-SNAPSHOT.jar app.jar
+COPY target/payment-service-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose application port and debug port
 EXPOSE 8009 5005
