@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecdaf7b5-56e5-4553-834a-03a829fb2bab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/healthcare/payment/config/EsewaProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
@@ -33,7 +31,20 @@
       <change beforePath="$PROJECT_DIR$/discovery-server" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discovery-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/controller/DoctorProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/controller/DoctorProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/controller/MedicineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/controller/MedicineController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/model/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/model/Appointment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/model/AppointmentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/model/AppointmentRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/model/DoctorProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/model/DoctorProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/model/DoctorSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/model/DoctorSchedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/model/MedicalReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/model/MedicalReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/model/PatientProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/model/PatientProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/model/ReportMedicine.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/model/ReportMedicine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/repository/DoctorProfileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/repository/DoctorProfileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/service/DoctorProfileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/service/DoctorProfileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/service/Imp/AppointmentRequestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/service/Imp/AppointmentRequestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/service/Imp/DoctorProfileServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/notification-service" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification-service/Dockerfile.dev" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/Dockerfile.dev" afterDir="false" />
@@ -41,17 +52,6 @@
       <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/example/billing_service/BillingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/example/notification/NotificationApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification-service/src/test/java/com/example/billing_service/BillingServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/healthcare/payment/PaymentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/healthcare/payment/PaymentApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/healthcare/payment/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/healthcare/payment/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/healthcare/payment/config/EsewaProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/src/test/java/com/healthcare/payment/PaymentApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/test/java/com/healthcare/payment/PaymentApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,37 +76,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DiscoveryServerApplication.executor": "Run",
-    "Application.discovery-server.executor": "Run",
-    "Application.discovery_server.executor": "Run",
-    "Application.doctor-service.executor": "Debug",
-    "Application.doctor_service.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Remote JVM Debug.Unnamed.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/shroyash/IdeaProjects/healthCare/healthcare-service",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "E:/healthCare/kubernetes/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DiscoveryServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.discovery-server.executor&quot;: &quot;Run&quot;,
+    &quot;Application.discovery_server.executor&quot;: &quot;Run&quot;,
+    &quot;Application.doctor-service.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.doctor_service.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Remote JVM Debug.Unnamed.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/shroyash/IdeaProjects/healthCare/healthcare-service&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/healthCare/kubernetes/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="8786" />
