@@ -86,7 +86,7 @@
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/dto/response/PatientProfileDTO.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/dto/response/PatientsStats.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/dto/response/ReportResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/report/dto/ReportResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/dto/response/WeeklyAppointmentCountDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/dashboard/dto/WeeklyAppointmentCountDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/dto/response/WeeklyAppointmentCountDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/appointment/dto/response/WeeklyAppointmentCountDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/enums/AppointmentRequestStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/common/enums/AppointmentRequestStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/enums/AppointmentStatus.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/enums/DoctorCheckType.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/common/enums/DoctorCheckType.java" afterDir="false" />
@@ -122,10 +122,10 @@
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/repository/AppointmentRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/repository/AppointmentRequestRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/repository/DoctorProfileRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/repository/MedicineRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/medicine/respository/MedicineRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/repository/MedicineRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/medicine/repository/MedicineRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/repository/NotificationRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/repository/PatientProfileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/patient/respository/PatientProfileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/repository/ReportRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/report/respository/ReportRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/repository/PatientProfileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/patient/repository/PatientProfileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/repository/ReportRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/report/repository/ReportRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/repository/ScheduleRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/service/AdminDashboardStatusService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/service/AdminPatientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/patient/service/AdminPatientService.java" afterDir="false" />
@@ -183,37 +183,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DiscoveryServerApplication.executor": "Run",
-    "Application.discovery-server.executor": "Run",
-    "Application.discovery_server.executor": "Run",
-    "Application.doctor-service.executor": "Debug",
-    "Application.doctor_service.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Remote JVM Debug.Unnamed.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/shroyash/IdeaProjects/healthCare",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "E:/healthCare/kubernetes/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DiscoveryServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.discovery-server.executor&quot;: &quot;Run&quot;,
+    &quot;Application.discovery_server.executor&quot;: &quot;Run&quot;,
+    &quot;Application.doctor-service.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.doctor_service.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Remote JVM Debug.Unnamed.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/shroyash/IdeaProjects/healthCare&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/healthCare/kubernetes/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="8786" />
@@ -238,7 +238,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
       </set>
     </attachedChunks>
   </component>
