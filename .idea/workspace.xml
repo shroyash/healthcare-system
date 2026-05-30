@@ -8,6 +8,8 @@
       <change afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/doctor/controller/DoctorProfileController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/patient/model/PatientProfile.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/report/model/ReportMedicine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
@@ -34,9 +36,9 @@
       <change beforePath="$PROJECT_DIR$/discovery-server" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discovery-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/healthcare-service" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/AppointmentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/AppointmentApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/AppointmentApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/config/AsyncConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/common/config/AsyncConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/config/DoctorKafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/doctor/config/DoctorKafkaConsumerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/config/UserKafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/patient/config/UserKafkaConsumerConfig.java" afterDir="false" />
@@ -87,7 +89,7 @@
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/dto/response/PatientsStats.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/dto/response/ReportResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/report/dto/ReportResponseDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/dto/response/WeeklyAppointmentCountDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/appointment/dto/response/WeeklyAppointmentCountDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/enums/AppointmentRequestStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/common/enums/AppointmentRequestStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/enums/AppointmentRequestStatus.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/enums/AppointmentStatus.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/enums/DoctorCheckType.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/common/enums/DoctorCheckType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/enums/DoctorRequestStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/common/enums/DoctorRequestStatus.java" afterDir="false" />
@@ -108,7 +110,7 @@
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/exceptions/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/common/exceptions/ResourceNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/exceptions/UnauthorizedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/common/exceptions/UnauthorizedException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/feign/AuthServiceClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/kafka/UserRegisteredConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/common/kafka/UserRegisteredConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/kafka/UserRegisteredConsumer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/mapper/PatientProfileMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/patient/mapper/PatientProfileMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/model/Appointment.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/model/AppointmentRequest.java" beforeDir="false" />
@@ -152,6 +154,7 @@
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/service/ReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/report/service/ReportService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/service/ScheduleService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/utils/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/common/utils/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification-service" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification-service/Dockerfile.dev" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/Dockerfile.dev" afterDir="false" />
