@@ -8,7 +8,6 @@
       <change afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/doctor/controller/DoctorProfileController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/patient/model/PatientProfile.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/report/model/ReportMedicine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
@@ -16,8 +15,11 @@
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/api_gateway/configs/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/api_gateway/configs/CorsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/api_gateway/configs/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/api_gateway/configs/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/api_gateway/filter/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/api_gateway/filter/AuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/api_gateway/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/api_gateway/util/JwtUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-service" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/example/auth_service/config/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/example/auth_service/config/KafkaProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/example/auth_service/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/example/auth_service/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/example/auth_service/model/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/example/auth_service/model/AppUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/example/auth_service/service/AdminService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/example/auth_service/service/AuthService.java" beforeDir="false" />
@@ -26,6 +28,7 @@
       <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/example/auth_service/service/Impl/AuthServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/example/auth_service/service/Impl/LoginAttemptServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/example/auth_service/service/LoginAttemptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/example/auth_service/service/LoginAttemptService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/example/auth_service/service/RegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/example/auth_service/service/RegistrationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/communication-service" beforeDir="false" afterPath="$PROJECT_DIR$/communication-service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/communication-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/communication-service/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/communication-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/communication-service/pom.xml" afterDir="false" />
@@ -37,6 +40,7 @@
       <change beforePath="$PROJECT_DIR$/discovery-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-service" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/AppointmentApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/config/AsyncConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/common/config/AsyncConfig.java" afterDir="false" />
@@ -186,37 +190,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.DiscoveryServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.discovery-server.executor&quot;: &quot;Run&quot;,
-    &quot;Application.discovery_server.executor&quot;: &quot;Run&quot;,
-    &quot;Application.doctor-service.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.doctor_service.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Remote JVM Debug.Unnamed.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/shroyash/IdeaProjects/healthCare&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/healthCare/kubernetes/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DiscoveryServerApplication.executor": "Run",
+    "Application.discovery-server.executor": "Run",
+    "Application.discovery_server.executor": "Run",
+    "Application.doctor-service.executor": "Debug",
+    "Application.doctor_service.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Remote JVM Debug.Unnamed.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/shroyash/IdeaProjects/healthCare/healthcare-service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/healthCare/kubernetes/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="8786" />
