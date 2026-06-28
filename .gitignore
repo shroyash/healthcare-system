@@ -1,0 +1,88 @@
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# Java / Maven / Gradle
+# ==========================
+target/
+build/
+.gradle/
+out/
+
+# Maven Wrapper Logs
+.mvn/wrapper/maven-wrapper.jar
+
+# ==========================
+# IntelliJ IDEA
+# ==========================
+.idea/
+*.iml
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# Eclipse
+# ==========================
+.project
+.classpath
+.settings/
+
+# ==========================
+# NetBeans
+# ==========================
+nbproject/private/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Logs
+# ==========================
+logs/
+*.log
+*.out
+
+# ==========================
+# Temporary Files
+# ==========================
+tmp/
+temp/
+*.tmp
+
+# ==========================
+# Docker
+# ==========================
+docker-data/
+*.pid
+
+# ==========================
+# Secrets
+# ==========================
+*.pem
+*.key
+*.jks
+*.p12
+*.keystore
+
+# ==========================
+# Local Configuration
+# ==========================
+application-local.yml
+application-local.yaml
+application-local.properties
+
+# ==========================
+# Redis / PostgreSQL Data
+# ==========================
+redis-data/
+postgres-data/
