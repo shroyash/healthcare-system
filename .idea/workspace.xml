@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecdaf7b5-56e5-4553-834a-03a829fb2bab" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/api_gateway/configs/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/api_gateway/configs/CorsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/api_gateway/configs/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/api_gateway/configs/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/api_gateway/filter/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/api_gateway/filter/AuthenticationFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
@@ -21,14 +17,16 @@
       <change beforePath="$PROJECT_DIR$/communication-service" beforeDir="false" afterPath="$PROJECT_DIR$/communication-service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/communication-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/communication-service/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/communication-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/communication-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/communication-service/src/main/java/com/example/demo/config/AuthChannelInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication-service/src/main/java/com/example/demo/config/AuthChannelInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/communication-service/src/main/java/com/example/demo/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication-service/src/main/java/com/example/demo/controller/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/communication-service/src/main/java/com/example/demo/controller/WebRtcSignalingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication-service/src/main/java/com/example/demo/controller/WebRtcSignalingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/communication-service/src/main/java/com/example/demo/model/ChatMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication-service/src/main/java/com/example/demo/model/ChatMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/communication-service/src/main/java/com/example/demo/service/ChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication-service/src/main/java/com/example/demo/service/ChatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/communication-service/src/main/java/com/example/demo/service/WebRtcRoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/communication-service/src/main/java/com/example/demo/service/WebRtcRoomService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/communication-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/communication-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discovery-server" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discovery-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/doctor/dto/DoctorProfileResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/doctor/dto/DoctorProfileResponseDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/doctor/dto/DoctorProfileUpdateDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/doctor/dto/DoctorProfileUpdateDto.java" afterDir="false" />
@@ -37,19 +35,6 @@
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/patient/dto/PatientProfileUpdateDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/patient/dto/PatientProfileUpdateDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/patient/service/PatientProfileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/java/com/example/healthcare/patient/service/PatientProfileService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/healthcare-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/healthcare/payment/PaymentApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/healthcare/payment/config/AppConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/healthcare/payment/config/EsewaProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/healthcare/payment/config/RefundProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service/src/test/java/com/healthcare/payment/PaymentApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +42,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/healthcare-service" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -92,7 +77,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/shroyash/IdeaProjects/healthCare&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/shroyash/IdeaProjects/healthCare/healthcare-service&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
