@@ -1,0 +1,15 @@
+[submodule "api-gateway"]
+	path = api-gateway
+	url = git@github.com:shroyash/api-gateway.git
+[submodule "auth-service"]
+	path = auth-service
+	url = git@github.com:shroyash/auth-service.git
+[submodule "communication-service"]
+	path = communication-service
+	url = git@github.com:shroyash/communication-service.git
+[submodule "discovery-server"]
+	path = discovery-server
+	url = git@github.com:shroyash/discovery-server.git
+[submodule "healthcare-service"]
+	path = healthcare-service
+	url = git@github.com:shroyash/healthcare-service.git
